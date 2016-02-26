@@ -1,0 +1,45 @@
+body{
+   max-width: 500px;  /*利用max-width，只要瀏覽器大小小於此值*/
+   margin: auto;
+   display: block;
+}
+h1{
+   text-align: center;
+
+}
+p{
+
+}
+.toggle_main_menu_button{
+      background-color: #48b1a8;
+      width: 50px;
+      height: 50px;
+      box-shadow: 3px 3px 5px #252e2d;
+      position: fixed;
+      top: 100px;
+      left: 0px;
+}
+.toggle_main_menu_button a{
+   font-size: 30px;
+   color: white;
+   position: relative;
+   top:7px;
+   left:10px;
+   text-decoration:none;
+}
+/*.toggle_main_menu_button:active{
+   transition: 1s;
+   left:10%;
+}*/
+.toggle_main_menu{
+   display: fixed;
+   position: absolute;
+   top: 100px;
+   left:-70px;
+}
+
+/*@media screen and (min-width:700px) {
+  body{
+    font-family: fantasy;#1c6b8c
+  }
+}*/
